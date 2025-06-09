@@ -6,16 +6,12 @@ using UnityEngine.InputSystem;
 public class PlayerManager : MonoBehaviour
 {
     [SerializeField] private InputActionReference m_aButton;
-    [SerializeField] private GameObject m_cube;
+    [SerializeField] private InputActionReference m_leftStick;
+    [SerializeField] private float moveSpeed = 1.5f;
+    [SerializeField] private Transform playerPosition;
+    [SerializeField] private Transform playerRotation;
 
-    private int m_index = 0;
     private void Update()
     {
-        if(m_aButton.action.triggered)
-        {
-            GameObject cube = Instantiate(m_cube);
-            cube.transform.position = new(0, m_index, 0);
-            m_index++;
-        }
     }
 }
