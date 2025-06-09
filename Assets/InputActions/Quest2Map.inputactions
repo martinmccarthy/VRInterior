@@ -1,0 +1,34 @@
+{
+    "name": "Quest2Map",
+    "maps": [
+        {
+            "name": "Quest2ActionMap",
+            "id": "4f3c6711-ab96-47d3-98c3-8745b5da2f9f",
+            "actions": [
+                {
+                    "name": "AButton",
+                    "type": "Button",
+                    "id": "9a37ad8a-69ea-47f8-8753-dcb0ed3794b5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "92a2988f-2af4-4eb2-8923-104b3ea222b8",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
